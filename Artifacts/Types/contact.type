@@ -17,6 +17,13 @@
           </attrAnnotations>
           <attr_type xsi:type="dclass:CSDefinedType" values="STRING"/>
         </attributes>
+        <attributes attr_name="telephone" attr_length="32" ID="5qbVnGCWQLXbHWdAUuQdaX">
+          <attrAnnotations xsi:type="dclass:AttrDDInfo" ignore_constraints="INHERIT" is_searchable="INHERIT" is_required="inherit" read_only="inherit" ignore_immutable="inherit" is_hidden="inherit" not_null="inherit"/>
+          <attrAnnotations xsi:type="dclass:NLSDDInfoSet">
+            <locales xsi:type="dclass:AttrNLSDDInfo" nls_key="en"/>
+          </attrAnnotations>
+          <attr_type xsi:type="dclass:CSDefinedType" values="STRING"/>
+        </attributes>
         <typeAnnotations xsi:type="dclass:NLSDDInfoSet">
           <locales xsi:type="dclass:TypeNLSDDInfo" nls_key="en"/>
         </typeAnnotations>
